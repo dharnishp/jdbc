@@ -1,7 +1,7 @@
 /*
  * Write a jdbc program to read input from user to update fname,lname and country records from table?
  */
-package com.dharnish.assignment;
+package com.dharnish.jdbcPrograms;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -9,7 +9,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public class Assignment1 {
+public class Example4 {
 
 	public static void main(String[] args) {
 		Scanner scn=new Scanner(System.in);
