@@ -1,4 +1,4 @@
-package com.dharnish.assignment;
+package com.dharnish.jdbcPrograms;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public class Assignment4 {
+public class Example11 {
 
 	public static void main(String[] args) throws ClassNotFoundException,SQLException{
 		Scanner scn=new Scanner(System.in);
