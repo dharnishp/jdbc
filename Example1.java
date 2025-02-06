@@ -1,4 +1,4 @@
-package com.dharnish.Programs;
+package com.dharnish.jdbc.Programs;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -27,7 +27,7 @@ public class Example1
 		{
 			System.out.println("try again!!");
 		}
-		//STEP 5 -> Close connection 
+		//STEP 7 -> Close connection 
 		con.close();
 		stmt.close();
 	}
