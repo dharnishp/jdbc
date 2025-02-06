@@ -1,4 +1,4 @@
-package com.dharnish.Programs;
+package com.dharnish.jdbcPrograms;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -6,7 +6,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class Example5 {
+public class Example7 {
 
 	public static void main(String[] args)throws ClassNotFoundException,SQLException {
 		Class.forName("com.mysql.cj.jdbc.Driver");
