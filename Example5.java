@@ -1,14 +1,14 @@
 /*
  * write a jdbc program to delete record from table?
  */
-package com.dharnish.assignment;
+package com.dharnish.jdbcPrograms;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class Assignment2 {
+public class Example5 {
 
 	public static void main(String[] args) {
 		try
