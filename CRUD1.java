@@ -1,5 +1,7 @@
+/*
+CRUD operations or Batch proceesing in JDBC API.
+*/
 package com.dharnish.batchprocessing;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
